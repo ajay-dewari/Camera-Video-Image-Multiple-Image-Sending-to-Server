@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/commentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A6000000"
+    android:gravity="center_vertical"
+    android:padding="10dp"
+    tools:context="com.forthcode.feedbackapp.Fragments.CommentFragment"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_subject"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical"
+        android:text="DNA Represntatives"
+        android:textColor="#fff"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <EditText
+        android:id="@+id/et_comment"
+        android:inputType="textMultiLine|textCapSentences"
+        android:lines="9"
+        android:minLines="7"
+        android:textColor="#fff"
+        android:hint="@string/comment"
+        android:textColorHint="@color/background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="top"
+        android:padding="5dp"
+        android:background="@drawable/comment_box_shape"
+        />
+<Button
+    android:id="@+id/btn_done"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Done"
+    android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

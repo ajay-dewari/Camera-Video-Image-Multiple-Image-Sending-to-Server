@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.forthcode.feedbackapp.Fragments.QuestionListFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<Button
+    android:id="@+id/btnClear"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Clear all"
+    />
+<ListView
+    android:id="@+id/questionList"
+    android:layout_height="0dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_weight="10"
+    android:layout_width="match_parent"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:background="@color/colorPrimary">
+        <ImageView
+            android:id="@+id/iv_camera"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/camera"/>
+        <ImageView
+            android:id="@+id/iv_video"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_camera"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/video_icon"/>
+    <LinearLayout
+        android:id="@+id/attach_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#fff"
+            android:text="Attach Media"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/attachment_icon"/>
+    </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

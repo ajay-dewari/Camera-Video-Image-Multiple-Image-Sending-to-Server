@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Feedback App</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="comment">Add Feedback...</string>
+    <string name="videoUploadURL">http://52.58.81.189:3000/app/image</string>
+    <string name="imageUploadURL">http://52.58.81.189:3000/app/image</string>
+    <string name="baseURL">http://52.58.81.189:3000/app/image</string>
+    <string name="localURL">http://192.168.1.221:3000/app/image</string>
+
+
+    <string name="action_settings">Settings</string>
+</resources>

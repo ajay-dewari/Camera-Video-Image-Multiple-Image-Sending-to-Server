@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/background">
+
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_subject"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:focusable="false"
+        android:gravity="center_vertical"
+        android:text="DNA Represntatives"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+
+    <TextView
+        android:id="@+id/tv_comment"
+        android:layout_height="35dp"
+        android:layout_width="100dp"
+        android:paddingLeft="5dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="40dp"
+        android:layout_alignRight="@+id/ib_editbtn"
+        android:background="@drawable/feedback_view_shape"
+        android:text=""
+        android:textAppearance="?android:textAppearanceSmall"/>
+
+    <ImageButton
+        android:id="@+id/ib_editbtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:clickable="true"
+        android:background="@drawable/edit_icon"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
+</FrameLayout>
